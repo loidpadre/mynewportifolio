@@ -1,0 +1,35 @@
+import styled from "styled-components";
+
+export const Wrapper = styled.section`
+    width:100%;
+    margin: 120px auto;
+    .text{
+        display: flex;
+        justify-content: space-between;
+        button{
+            margin-top: 20px;
+            padding: 10px 14px;
+            color: white;
+            background-color: #ad1400;
+            border: none;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        h1{
+            font-size: 40px;
+        }
+    }
+    .project{
+        display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 20px; 
+        .proj{
+            background-color: #272727;
+            text-align: center;
+            img{
+                text-align: center;
+                width: 80%;
+            }
+        }
+    }
+`
