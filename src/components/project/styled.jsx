@@ -27,8 +27,18 @@ export const Wrapper = styled.section`
             background-color: #272727;
             text-align: center;
             img{
-                text-align: center;
                 width: 80%;
+                height:300px;
+                object-fit: cover;
+            }
+        }
+        .sub{
+            margin-top: 20px;
+            p{
+                color: #ad1400;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
             }
         }
     }

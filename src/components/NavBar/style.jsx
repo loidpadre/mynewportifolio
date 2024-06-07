@@ -12,9 +12,24 @@ export const Wrapper = styled.nav`
         display: flex;
         gap: 10px;
         align-items: center;
+        a{
+            color: white;
+            text-decoration: none;
+        }
         li{
             list-style: none;
             cursor: pointer;
+            &::after{
+                content: " ";
+                width: 0;
+                background-color: #ad1400;
+                height: 2px;
+                display: block;
+                transition: width 1s;
+            }
+            &:hover:not(.redes)::after{
+                width: 100%;
+            }
         }
        }
        .redes{

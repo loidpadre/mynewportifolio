@@ -1,9 +1,13 @@
 import { GiAbstract005  } from "react-icons/gi";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { Wrapper } from "./style";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import AOS from "aos"
+import "aos/dist/aos.css"
 export default function NavBar(){
-
+    useEffect(() =>{
+        AOS.init()
+    },[])
     const [ isOpen, setIsOpen] = useState(false)
     const handleOpen = () =>{
         setIsOpen(!isOpen)
@@ -15,10 +19,10 @@ export default function NavBar(){
             </div>
             <div className="menu">
                 <ul>
-                    <li>Home</li>
-                    <li>Project</li>
-                    <li>About</li>
-                    <li>Contact</li>   
+                    <a href="#header"><li>Home</li></a>
+                    <a href="#project"><li>Project</li></a>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#contact"><li>Contact</li></a>   
                     <li className="redes" onClick={handleOpen}>
                         <p>Minhas redes</p> 
                         <IoMdArrowDropdown />

@@ -23,12 +23,16 @@ export const Wrapper = styled.section`
                 flex-direction: column;
                 gap: 10px;
                 width: 350px;
+                cursor: pointer;
+                transition: transform 0.5s;
                 p{
                     cursor: pointer;
                     display: flex;
                     align-items: center;
                 }
-
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
         }
         .experience{

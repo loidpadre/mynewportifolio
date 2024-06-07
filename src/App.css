@@ -16,6 +16,9 @@
 
 }
 
+p{
+   color: #b1afaf;
+}
 @keyframes round{
    from{
       transform: rotate(390deg);

@@ -10,7 +10,8 @@ export const Wrapper = styled.header`
     .col-1{
         z-index: -1;
         img{
-
+           
+            
         }
     }
     .col-2{
