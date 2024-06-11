@@ -16,21 +16,21 @@ export default function Section1(){
         {
             id: 0,
             title: "Otimização de Desempenho",
-            body:"Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            body:"Busco garantir uma experiência mais suave e responsiva para os usuários finais. Minhas contribuições visam aprimorar o desempenho dos projetos e agregar valor às equipes de desenvolvimento.",
             icon: <AiOutlineTool size={35} color="#ff1e00" />,
             backgrounfColor: "#333131"
         },
         {
             id: 1,
             title: "Desenvolvimento Responsivo",
-            body:"Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            body:"Tenho conhecimentos em Desenvolvimento Responsivo, uma abordagem essencial para garantir que os sites e aplicativos que desenvolvo sejam visualmente atrativos e funcionais em uma variedade de dispositivos e tamanhos de tela.",
             icon: <MdDevices size={35} color="white" />,
             backgrounfColor: "#ad1400"
         },
         {
             id: 2,
-            title: "Domínio de Frameworks Front-end",
-            body:"Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            title: "Domínio de Tecnologias Front-end",
+            body:"Tenho habilidades sólidas no domínio de Tecnologias Front-end, o que me permite criar interfaces web interativas e visualmente atraentes. Com proficiência em HTML, CSS e JavaScript, sou capaz de traduzir designs em experiências de usuário funcionais e responsivas.",
             icon: <FaCode size={35} color="#ff1e00" />,
             backgrounfColor: "#272727"
         },
@@ -48,7 +48,7 @@ export default function Section1(){
                     <div>{d.icon}</div>
                     <h1>{d.title}</h1>
                     <span>{d.body}</span>
-                    <p>Ler mais <IoMdArrowRoundForward/> </p>
+                    <a href="https://www.linkedin.com/in/loidpadre/" target="_blank" rel="noopener noreferrer"><p>Ler mais <IoMdArrowRoundForward/> </p></a>
                 </div>
                    ))
                    }
@@ -61,21 +61,21 @@ export default function Section1(){
                         <div className="palet1" >
                             <div className="pal" data-aos="fade-left" data-aos-duration="2000">
                                 <h1>Frellancer</h1>
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                <span>Adquiri uma vasta experiência colaborando em uma variedade de projetos desafiadores.</span>
                             </div>
                             <div className="pal" data-aos="fade-left" data-aos-duration="2000">
                                 <h1>Desenvolvedor na Scorpion</h1>
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                <span>Trabalhei como Programador numa pequena startup onde criamos soluções para a Comunidade estudantil da mminha cidade.</span>
                             </div>
                         </div>
                         <div className="palet1">
                             <div className="pal" data-aos="fade-left" data-aos-duration="2000">
-                                <h1>Desenvolvedor fron MAX Trainer</h1>
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                <h1>Desenvolvedor front end MAX Trainer</h1>
+                                <span>contribuí para o desenvolvimento de soluções digitais para uma das academias da minha cidade.</span>
                             </div>
                             <div className="pal" data-aos="fade-left" data-aos-duration="2000">
-                                <h1>Desenvolvedor web na Scorpion</h1>
-                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                <h1>Desenvolvedor web (Projectos Pessoais)</h1>
+                                <span>Desenvolviprojectos pessoas que dão solução aos meus pequenos problemas diarios.</span>
                             </div>
                         </div>
                     </div>

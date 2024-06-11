@@ -7,4 +7,5 @@ export const Wrapper = styled.footer`
     justify-content: space-between;
     align-items: center;
     
+    
 `

@@ -14,7 +14,7 @@ export default function LetWork(){
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis impedit eaque, tempore cupiditate ipsum tempora doloribus molestiae temporibus laudantium explicabo hic quo nulla ea nobis sint atque at libero.</p>
            </div>
            <div className="button">
-              <button>Me contratar</button>
+              <a href="http://wa.me/5585996537401" target="_blank"><button>Me contratar</button></a>
            </div>
         </Wrapper>
     )

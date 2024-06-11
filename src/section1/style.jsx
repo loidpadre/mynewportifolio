@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Wrapper = styled.section`
     width: 100%;
     margin: 0 auto;
+    a{
+        color: white;
+        text-decoration: none;
+    }
     .squar{
         width: 50%;
         height: 650px;
@@ -60,11 +64,39 @@ export const Wrapper = styled.section`
                         background-color: #313131;
                         padding: 10px;
                         width: 250px;
-                        height: 150px;
+                        height: 190px;
                     }
                 }
             }
         
     }
-
+    @media screen and (max-width: 1144px){
+        .squar{
+            width: 100%;
+        }
+        .cards-inf{
+            .cards{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .card{
+                    width: 500px;
+                    &:hover{
+                        transform: scale(0.9);
+                    }
+                }
+            }
+            .experience{
+            flex-direction: column;
+            .palet1{
+                justify-content: center;
+                align-items: center;
+                .pal{
+                    width: 500px;
+                }
+            }
+        }
+        }
+        
+    }
 `

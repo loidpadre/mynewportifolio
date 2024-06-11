@@ -38,5 +38,12 @@ export const Wrapper = styled.section`
                 }
             }
     }
+    @media screen and (max-width: 1144px){
+        flex-direction: column;
+        .text{
+            width: 400px;
+            text-align: center;
+        }
+    }
 
 `

@@ -50,4 +50,11 @@ export const Wrapper = styled.header`
             }
         }
     }
+    @media screen and (max-width: 1144px){
+        flex-direction: column;
+        .col-2{
+            width: 500px;
+            text-align: center;
+        }
+    }
 `

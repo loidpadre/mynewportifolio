@@ -33,4 +33,9 @@ export const Wrapper = styled.section`
         cursor: pointer;
         }
     }
+    @media screen and (max-width: 1144px){
+        form{
+            width: 400px;
+        }
+    }
 `

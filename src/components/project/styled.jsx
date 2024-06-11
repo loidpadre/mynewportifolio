@@ -42,4 +42,20 @@ export const Wrapper = styled.section`
             }
         }
     }
+    @media screen and (max-width: 1144px) {
+        .text{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .project{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .proj{
+                width: 500px;
+            }
+        }
+    }
 `

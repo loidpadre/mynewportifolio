@@ -18,34 +18,47 @@ export default function Project(){
         {
             id:0,
             img: img1,
-            title: "Movie App"
+            title: "Movie App",
+            web: "https://movie-six-ruby.vercel.app/",
         },
         {
             id:1,
             img: img2,
-            title: "Coffee challenge"
+            title: "Coffee challenge",
+            web: "https://cofee-challeng.vercel.app/",
         },
         {
             id:2,
             img: img6,
-            title: "Rick and Morty"
+            title: "Rick and Morty",
+            web: "https://rick-and-morty-new-site.vercel.app/",
         },
         {
             id:3,
             img: img3,
-            title: "Scorpion Web Site"
+            title: "Scorpion Web Site",
+            web: "https://web-scorpion.vercel.app/",
         },
         {
             id:4,
             img: img4,
-            title: "Ecommerce Project"
+            title: "Ecommerce Project",
+            web: "https://beatful-shoping-cart.vercel.app/Home",
         },
         {
             id:5,
             img: img5,
-            title: "Ireclene Portifolio"
+            title: "Ireclene Portifolio",
+            web: "https://ireclene-portifolio.vercel.app/",
         },
     ])
+    const handleLink = (id) =>{
+        projects.map((p) =>{
+            if(p.id === id){
+               window.open(p.web, "_blank")
+            }
+        })
+    }
     return(
         <Wrapper id="project">
             <div className="text">
@@ -54,7 +67,7 @@ export default function Project(){
                     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
                 </div>
                 <div className="col-2">
-                    <button>Ver tudo</button>
+                    <a href="https://github.com/loidpadre?tab=repositories" target="_blank" ><button>Ver tudo</button></a>
                 </div>
             </div>
             <div className="project">
@@ -66,7 +79,7 @@ export default function Project(){
                 </div>
                 <div className="sub">
                     <h1>{project.title}</h1>
-                    <p>Saber mais <MdOutlineArrowForward /> </p>
+                    <p onClick={() => handleLink(project.id)}>Ver projeto <MdOutlineArrowForward /> </p>
                 </div>
                         </div>
                     ))

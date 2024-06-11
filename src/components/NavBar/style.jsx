@@ -7,7 +7,6 @@ export const Wrapper = styled.nav`
     justify-content: space-between;
     align-items: center;
     .menu{
-        position: relative;
        ul{
         display: flex;
         gap: 10px;
@@ -35,7 +34,12 @@ export const Wrapper = styled.nav`
        .redes{
         display: flex;
         gap: -20px;
-
+            p{
+            transition: color 0.5s;
+                &:hover{
+                    color: white;
+                }
+            }
        }
        .menuDrop{
         display: flex;
@@ -57,5 +61,45 @@ export const Wrapper = styled.nav`
         }
        }
        
+    }
+    .amburg{
+        display: none;
+    }
+
+
+    @media screen and (max-width: 1144px) {
+        position: relative;
+        .menu{
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0px;
+            ul{
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+                background-color: #272727;
+                width: 180px;
+                padding-right: 50px;
+            }
+            .menuDrop{
+                right: -200px;
+                top: 0px;
+                justify-content: center;
+                align-items: center;
+                li{
+                    &:hover{
+                        background-color:transparent;
+                    }
+                }
+            }
+        }
+        .amburg{
+            display: block;
+            cursor: pointer;
+        }
+        .hidden{
+            display: none;
+        }
     }
 `

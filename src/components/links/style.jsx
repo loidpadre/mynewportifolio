@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     width: 500px;
     margin: 100px auto;
     ul{
-        margin-left: 90px;
+        justify-content: center;
         display: flex;
         align-items: center;
         gap: 10px;
@@ -20,6 +20,13 @@ export const Wrapper = styled.div`
                 color: #ad1400;
 
             }
+        }
+    }
+    @media screen and (max-width: 1144px){
+        width: 100%;
+        margin: 100px auto;
+        ul{
+
         }
     }
 `
