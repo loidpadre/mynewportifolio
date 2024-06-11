@@ -64,7 +64,7 @@ export default function Project(){
             <div className="text">
                 <div className="col-1">
                     <h1>Feature Projects</h1>
-                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    <span>Explore meu universo de desenvolvimento web através dos projetos que realizei.</span>
                 </div>
                 <div className="col-2">
                     <a href="https://github.com/loidpadre?tab=repositories" target="_blank" ><button>Ver tudo</button></a>

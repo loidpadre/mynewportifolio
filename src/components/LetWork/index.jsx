@@ -11,7 +11,7 @@ export default function LetWork(){
         <Wrapper data-aos="fade-up" data-aos-duration="2000">
            <div className="text">
             <h1>Vamos trabalhar juntos no teu novo project?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis impedit eaque, tempore cupiditate ipsum tempora doloribus molestiae temporibus laudantium explicabo hic quo nulla ea nobis sint atque at libero.</p>
+            <p>Vamos unir forças e dar vida ao seu próximo projeto! Com minha expertise em desenvolvimento web e sua visão única, podemos criar algo verdadeiramente excepcional.</p>
            </div>
            <div className="button">
               <a href="http://wa.me/5585996537401" target="_blank"><button>Me contratar</button></a>

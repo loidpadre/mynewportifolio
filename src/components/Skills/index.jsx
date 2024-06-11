@@ -15,7 +15,7 @@ export default function Skills(){
         <Wrapper>
             <div className="text" data-aos="fade-up" data-aos-duration="1000">
                 <h1 >Skills</h1>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+                <span>Explore minhas habilidades e expertise no mundo do desenvolvimento web.</span>
             </div>
             <div className="skills" data-aos="fade-up" data-aos-duration="2000">
                 <FaReact size={45} color="#ad1400" />
